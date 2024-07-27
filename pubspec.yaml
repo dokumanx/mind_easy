@@ -1,0 +1,49 @@
+name: mind_easy
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ^3.4.0
+
+dependencies:
+  bloc: ^8.1.4
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+dev_dependencies:
+  build_runner: ^2.4.11
+  bloc_test: ^9.1.7
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.4
+  very_good_analysis: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  fonts:
+    - family: New York Extra Large
+      fonts:
+        - asset: fonts/NewYorkExtraLargeRegular.otf
+          weight: 400
+        - asset: fonts/NewYorkExtraLargeMedium.otf
+          weight: 500
+        - asset: fonts/NewYorkExtraLargeBold.otf
+          weight: 700
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+
+
