@@ -7,6 +7,7 @@ class AppColors {
   static const primaryPink = Color(0xFFDD69A4);
   static const primaryBlue = Color(0xFF181B29);
   static const secondaryBlue = Color(0xFF24252E);
+  static const background= Color(0xFF1D202D);
 
   // Grayscale
   static const Color gray100 = Color(0xFF000000);

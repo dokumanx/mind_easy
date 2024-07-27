@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:mind_easy/app/components/grid_card.dart';
 
 class App extends StatelessWidget {
   const App({super.key});
@@ -15,7 +16,15 @@ class App extends StatelessWidget {
       ),
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
-      home: Container(),
+      home: const Scaffold(
+        body: SafeArea(
+          child: Column(
+            children: [
+              GridCard(),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
