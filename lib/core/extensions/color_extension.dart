@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mind_easy/core/theme/app_colors.dart';
 
 extension ColorExtension on Color {
   Color get o10 => withOpacity(0.1);
@@ -18,6 +19,21 @@ extension ColorExtension on Color {
   Color get o80 => withOpacity(0.8);
 
   Color get o90 => withOpacity(0.9);
+}
+
+extension DynamicColorExtension on BuildContext {
+  bool get _isDark => Theme.of(this).brightness == Brightness.dark;
+
+  Color get blackWhite =>
+      _isDark ? AppColors.primaryWhite : AppColors.primaryBlack;
+
+  Color get blackWhite2 => _isDark ? AppColors.white2 : AppColors.black2;
+
+  Color get blackWhite10 => _isDark ? AppColors.white10 : AppColors.black10;
+
+  Color get blackWhite30 => _isDark ? AppColors.white30 : AppColors.black30;
+
+  Color get blackWhite60 => _isDark ? AppColors.white60 : AppColors.black60;
 }
 
 extension TextStyleColorExtension on TextStyle {

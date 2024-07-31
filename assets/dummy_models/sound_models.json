@@ -1,0 +1,39 @@
+{
+  "soundModels": [
+    {
+      "id": "1",
+      "imagePath": "assets/images/image_1.png",
+      "title": "Peaceful Morning",
+      "subtitle": "Start your day with tranquility",
+      "duration": 180
+    },
+    {
+      "id": "2",
+      "imagePath": "assets/images/image_2.png",
+      "title": "Calm Waters",
+      "subtitle": "Gentle waves for relaxation",
+      "duration": 240
+    },
+    {
+      "id": "3",
+      "imagePath": "assets/images/image_3.png",
+      "title": "Forest Whisper",
+      "subtitle": "Nature sounds to soothe your mind",
+      "duration": 300
+    },
+    {
+      "id": "4",
+      "imagePath": "assets/images/image_4.png",
+      "title": "Serene Sunset",
+      "subtitle": "Unwind with the evening glow",
+      "duration": 360
+    },
+    {
+      "id": "5",
+      "imagePath": "assets/images/image_5.png",
+      "title": "Night Harmony",
+      "subtitle": "Peaceful sounds for a restful night",
+      "duration": 420
+    }
+  ]
+}
