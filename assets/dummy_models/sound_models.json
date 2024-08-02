@@ -3,37 +3,273 @@
     {
       "id": "1",
       "imagePath": "assets/images/image_1.png",
-      "title": "Peaceful Morning",
-      "subtitle": "Start your day with tranquility",
-      "duration": 180
+      "title": "Tranquil Meditation",
+      "subtitle": "Find your inner peace",
+      "duration": 180,
+      "type": "meditation"
     },
     {
       "id": "2",
       "imagePath": "assets/images/image_2.png",
-      "title": "Calm Waters",
-      "subtitle": "Gentle waves for relaxation",
-      "duration": 240
+      "title": "Thunderstorm Bliss",
+      "subtitle": "Relax with the sound of thunder",
+      "duration": 240,
+      "type": "thunder"
     },
     {
       "id": "3",
       "imagePath": "assets/images/image_3.png",
-      "title": "Forest Whisper",
-      "subtitle": "Nature sounds to soothe your mind",
-      "duration": 300
+      "title": "Ocean Waves",
+      "subtitle": "Gentle waves for relaxation",
+      "duration": 300,
+      "type": "ocean"
     },
     {
       "id": "4",
       "imagePath": "assets/images/image_4.png",
-      "title": "Serene Sunset",
-      "subtitle": "Unwind with the evening glow",
-      "duration": 360
+      "title": "Nature's Whisper",
+      "subtitle": "Soothe your mind with nature sounds",
+      "duration": 360,
+      "type": "nature"
     },
     {
       "id": "5",
       "imagePath": "assets/images/image_5.png",
-      "title": "Night Harmony",
-      "subtitle": "Peaceful sounds for a restful night",
-      "duration": 420
+      "title": "Rainforest Serenity",
+      "subtitle": "Immerse in rainforest ambiance",
+      "duration": 420,
+      "type": "rainForest"
+    },
+    {
+      "id": "6",
+      "imagePath": "assets/images/image_1.png",
+      "title": "Crackling Fire",
+      "subtitle": "Warmth and comfort",
+      "duration": 200,
+      "type": "fire"
+    },
+    {
+      "id": "7",
+      "imagePath": "assets/images/image_2.png",
+      "title": "Gentle Wind",
+      "subtitle": "Soft breezes to relax",
+      "duration": 220,
+      "type": "wind"
+    },
+    {
+      "id": "8",
+      "imagePath": "assets/images/image_3.png",
+      "title": "Waterfall Symphony",
+      "subtitle": "Majestic waterfall sounds",
+      "duration": 240,
+      "type": "waterfall"
+    },
+    {
+      "id": "9",
+      "imagePath": "assets/images/image_4.png",
+      "title": "Birdsong Melody",
+      "subtitle": "Chirping birds for a cheerful day",
+      "duration": 260,
+      "type": "birds"
+    },
+    {
+      "id": "10",
+      "imagePath": "assets/images/image_5.png",
+      "title": "White Noise Calm",
+      "subtitle": "Block out distractions",
+      "duration": 280,
+      "type": "whiteNoise"
+    },
+    {
+      "id": "11",
+      "imagePath": "assets/images/image_1.png",
+      "title": "Forest Ambiance",
+      "subtitle": "Feel the tranquility of the forest",
+      "duration": 300,
+      "type": "forest"
+    },
+    {
+      "id": "12",
+      "imagePath": "assets/images/image_2.png",
+      "title": "Flowing River",
+      "subtitle": "Relax with river sounds",
+      "duration": 320,
+      "type": "river"
+    },
+    {
+      "id": "13",
+      "imagePath": "assets/images/image_3.png",
+      "title": "Babbling Creek",
+      "subtitle": "Soothing creek sounds",
+      "duration": 340,
+      "type": "creek"
+    },
+    {
+      "id": "14",
+      "imagePath": "assets/images/image_4.png",
+      "title": "Ocean Waves",
+      "subtitle": "Calm your mind with ocean waves",
+      "duration": 360,
+      "type": "waves"
+    },
+    {
+      "id": "15",
+      "imagePath": "assets/images/image_5.png",
+      "title": "Jungle Harmony",
+      "subtitle": "Experience the sounds of the jungle",
+      "duration": 380,
+      "type": "jungle"
+    },
+    {
+      "id": "16",
+      "imagePath": "assets/images/image_1.png",
+      "title": "Desert Wind",
+      "subtitle": "Feel the desert breeze",
+      "duration": 400,
+      "type": "desertWind"
+    },
+    {
+      "id": "17",
+      "imagePath": "assets/images/image_2.png",
+      "title": "Mountain Stream",
+      "subtitle": "Refreshing mountain stream",
+      "duration": 440,
+      "type": "mountainStream"
+    },
+    {
+      "id": "18",
+      "imagePath": "assets/images/image_3.png",
+      "title": "Cave Echoes",
+      "subtitle": "Mystical cave sounds",
+      "duration": 460,
+      "type": "caveEchoes"
+    },
+    {
+      "id": "19",
+      "imagePath": "assets/images/image_4.png",
+      "title": "Meadow Ambiance",
+      "subtitle": "Peaceful meadow sounds",
+      "duration": 480,
+      "type": "meadowAmbiance"
+    },
+    {
+      "id": "20",
+      "imagePath": "assets/images/image_5.png",
+      "title": "Serene Meditation",
+      "subtitle": "Calm your mind",
+      "duration": 300,
+      "type": "meditation"
+    },
+    {
+      "id": "21",
+      "imagePath": "assets/images/image_1.png",
+      "title": "Stormy Night",
+      "subtitle": "Relax with the sound of thunder",
+      "duration": 320,
+      "type": "thunder"
+    },
+    {
+      "id": "22",
+      "imagePath": "assets/images/image_2.png",
+      "title": "Calming Ocean",
+      "subtitle": "Gentle waves to soothe you",
+      "duration": 340,
+      "type": "ocean"
+    },
+    {
+      "id": "23",
+      "imagePath": "assets/images/image_3.png",
+      "title": "Forest Sounds",
+      "subtitle": "Nature's symphony",
+      "duration": 360,
+      "type": "nature"
+    },
+    {
+      "id": "24",
+      "imagePath": "assets/images/image_4.png",
+      "title": "Jungle Serenity",
+      "subtitle": "Rainforest sounds to calm you",
+      "duration": 380,
+      "type": "rainForest"
+    },
+    {
+      "id": "25",
+      "imagePath": "assets/images/image_5.png",
+      "title": "Fireside Relaxation",
+      "subtitle": "Warm and cozy",
+      "duration": 400,
+      "type": "fire"
+    },
+    {
+      "id": "26",
+      "imagePath": "assets/images/image_1.png",
+      "title": "Gentle Breeze",
+      "subtitle": "Soft wind to soothe",
+      "duration": 420,
+      "type": "wind"
+    },
+    {
+      "id": "27",
+      "imagePath": "assets/images/image_2.png",
+      "title": "Waterfall Tranquility",
+      "subtitle": "Powerful waterfall sounds",
+      "duration": 440,
+      "type": "waterfall"
+    },
+    {
+      "id": "28",
+      "imagePath": "assets/images/image_3.png",
+      "title": "Morning Birds",
+      "subtitle": "Cheerful birdsong",
+      "duration": 460,
+      "type": "birds"
+    },
+    {
+      "id": "29",
+      "imagePath": "assets/images/image_4.png",
+      "title": "Pure White Noise",
+      "subtitle": "Focus and relax",
+      "duration": 480,
+      "type": "whiteNoise"
+    },
+    {
+      "id": "30",
+      "imagePath": "assets/images/image_5.png",
+      "title": "Mindful Meditation",
+      "subtitle": "Deep meditation sounds",
+      "duration": 200,
+      "type": "meditation"
+    },
+    {
+      "id": "31",
+      "imagePath": "assets/images/image_1.png",
+      "title": "Night Thunder",
+      "subtitle": "Stormy night sounds",
+      "duration": 240,
+      "type": "thunder"
+    },
+    {
+      "id": "32",
+      "imagePath": "assets/images/image_2.png",
+      "title": "Jungle Peace",
+      "subtitle": "Rainforest tranquility",
+      "duration": 260,
+      "type": "rainForest"
+    },
+    {
+      "id": "33",
+      "imagePath": "assets/images/image_3.png",
+      "title": "Calm Ocean",
+      "subtitle": "Relax with ocean waves",
+      "duration": 340,
+      "type": "ocean"
+    },
+    {
+      "id": "34",
+      "imagePath": "assets/images/image_4.png",
+      "title": "Forest Melody",
+      "subtitle": "Enjoy forest ambiance",
+      "duration": 360,
+      "type": "nature"
     }
-  ]
-}
+  ]}

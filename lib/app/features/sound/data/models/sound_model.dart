@@ -1,5 +1,6 @@
 import 'package:equatable/equatable.dart';
 import 'package:json_annotation/json_annotation.dart';
+import 'package:mind_easy/core/enums/sound_type.dart';
 
 part 'sound_model.g.dart';
 
@@ -11,6 +12,7 @@ class SoundModel with EquatableMixin {
     required this.title,
     required this.subtitle,
     required this.duration,
+    required this.type,
   });
 
   factory SoundModel.fromJson(Map<String, dynamic> json) =>
@@ -21,6 +23,7 @@ class SoundModel with EquatableMixin {
   final String title;
   final String subtitle;
   final int duration;
+  final SoundType type;
 
   Map<String, dynamic> toJson() => _$SoundModelToJson(this);
 
