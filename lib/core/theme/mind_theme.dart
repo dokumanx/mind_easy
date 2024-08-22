@@ -48,6 +48,43 @@ class MindTheme {
 
   static ThemeData get _lightTheme => _baseTheme.copyWith(
         brightness: Brightness.light,
+        inputDecorationTheme: InputDecorationTheme(
+          filled: true,
+          fillColor: AppColors.black2,
+          prefixIconColor: AppColors.black60,
+          border: MaterialStateOutlineInputBorder.resolveWith(
+            (states) {
+              if (states.contains(WidgetState.focused)) {
+                return OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                  borderSide: BorderSide(
+                    color: AppColors.black60,
+                    width: 0.8,
+                  ),
+                );
+              } else if (states.contains(WidgetState.error)) {
+                return OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                  borderSide: const BorderSide(
+                    color: Colors.redAccent,
+                    width: 0.8,
+                  ),
+                );
+              }
+              return OutlineInputBorder(
+                borderRadius: BorderRadius.circular(14),
+                borderSide: BorderSide(
+                  color: AppColors.black10,
+                  width: 0.8,
+                ),
+              );
+            },
+          ),
+          contentPadding: const EdgeInsets.all(15),
+          hintStyle: AppTextStyles.body14Light.copyWith(
+            color: AppColors.black30,
+          ),
+        ),
         chipTheme: _baseTheme.chipTheme.copyWith(
           brightness: Brightness.light,
           labelStyle: AppTextStyles.body14Regular.copyWith(
@@ -64,6 +101,43 @@ class MindTheme {
 
   static ThemeData get _darkTheme => _baseTheme.copyWith(
         brightness: Brightness.dark,
+        inputDecorationTheme: InputDecorationTheme(
+          filled: true,
+          fillColor: AppColors.white2,
+          prefixIconColor: AppColors.white60,
+          border: MaterialStateOutlineInputBorder.resolveWith(
+            (states) {
+              if (states.contains(WidgetState.focused)) {
+                return OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                  borderSide: BorderSide(
+                    color: AppColors.white60,
+                    width: 0.8,
+                  ),
+                );
+              } else if (states.contains(WidgetState.error)) {
+                return OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(14),
+                  borderSide: const BorderSide(
+                    color: Colors.redAccent,
+                    width: 0.8,
+                  ),
+                );
+              }
+              return OutlineInputBorder(
+                borderRadius: BorderRadius.circular(14),
+                borderSide: BorderSide(
+                  color: AppColors.white10,
+                  width: 0.8,
+                ),
+              );
+            },
+          ),
+          contentPadding: const EdgeInsets.all(15),
+          hintStyle: AppTextStyles.body14Light.copyWith(
+            color: AppColors.white30,
+          ),
+        ),
         chipTheme: _baseTheme.chipTheme.copyWith(
           brightness: Brightness.dark,
           labelStyle: AppTextStyles.body14Regular.copyWith(
